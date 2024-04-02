@@ -1,0 +1,25 @@
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .container .inputBox {
+    width: 300px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    padding: 5px;
+  }
+}
+.main {
+  transform: translateY(100%);
+  animation: searchanimation 0.4s ease forwards;
+}
+
+@keyframes searchanimation {
+  0% {
+    transform: translatex(100%);
+  }
+  100% {
+    transform: translatex(0%);
+  }
+}

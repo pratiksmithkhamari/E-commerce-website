@@ -1,0 +1,18 @@
+@media screen and (max-width: 450px) {
+  .mainDiv {
+    height: 100%;
+  }
+  .mainDiv .prodBox {
+    padding: 20px;
+    height: 10rem;
+
+    width: 167px;
+    display: flex;
+    
+  }
+  .prodBox .prodImg {
+    padding: 8px;
+    height: 7rem;
+    width: 10rem;
+  }
+}

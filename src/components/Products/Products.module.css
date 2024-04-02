@@ -1,0 +1,15 @@
+@media screen and (max-width: 450px) {
+  .container {
+    height: 100%;
+    display: flex !important;
+    overflow-x: scroll;
+    flex-wrap: wrap;
+    background: #928a8a;
+  }
+  .main::-webkit-scrollbar {
+    margin-left: 200px;
+    padding: 20px;
+    overflow-x: none;
+    overflow-y: none;
+  }
+}

@@ -1,0 +1,21 @@
+.cartcontent {
+  transform: translateX(100%);
+  animation: slidecart ease forwards 0.3s;
+  position: relative;
+  width: 20%;
+}
+
+@keyframes slidecart {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cartfull .cartcontent {
+    width: 540px;
+  }
+}

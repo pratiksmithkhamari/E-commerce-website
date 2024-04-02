@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+  .catagoryMain {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 400px;
+    height: 25%;
+    flex-direction: row;
+  }
+}
